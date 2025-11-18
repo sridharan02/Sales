@@ -1,9 +1,6 @@
 streamlit
 pandas
 gspread
-gspread_dataframe
+gspread-dataframe
 google-auth
-google-auth-oauthlib
 plotly
-seaborn
-matplotlib
