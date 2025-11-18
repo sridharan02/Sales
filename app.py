@@ -143,5 +143,5 @@ fig3 = px.bar(subcat_sales.reset_index(),
 fig3.show()
 
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
