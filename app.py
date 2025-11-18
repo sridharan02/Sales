@@ -20,7 +20,7 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import gspread
 from gspread_dataframe import get_as_dataframe
-from google.colab import auth
+# from google.colab import auth
 from google.auth import default
 # Install necessary packages
 # !pip install --upgrade gspread gspread-dataframe google-auth-oauthlib
