@@ -25,10 +25,6 @@ from google.auth import default
 # Install necessary packages
 !pip install --upgrade gspread gspread-dataframe google-auth-oauthlib
 
-
-
-
-
 # Authenticate user in Colab
 auth.authenticate_user()
 
@@ -47,7 +43,6 @@ worksheet = sh.sheet1  # first sheet
 df = get_as_dataframe(worksheet)
 df = df.dropna(how='all')
 df.head()
-
 
 # sns.set(style="whitegrid")
 
@@ -146,7 +141,6 @@ fig3 = px.bar(subcat_sales.reset_index(),
              color='sales',
              color_continuous_scale='Plotly3')
 fig3.show()
-
 
 
 from google.colab import drive
