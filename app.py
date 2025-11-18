@@ -21,12 +21,12 @@ import plotly.graph_objects as go
 import gspread
 from gspread_dataframe import get_as_dataframe
 # from google.colab import auth
-from google.auth import default
+# from google.auth import default
 # Install necessary packages
 # !pip install --upgrade gspread gspread-dataframe google-auth-oauthlib
 
 # Authenticate user in Colab
-auth.authenticate_user()
+# auth.authenticate_user()
 
 # Get credentials from Colab
 creds, _ = default()
