@@ -10,7 +10,7 @@ Original file is located at
 # ===============================
 # 1️⃣ INSTALL & IMPORT LIBRARIES
 # ===============================
-!pip install --upgrade gspread gspread-dataframe plotly seaborn
+# !pip install --upgrade gspread gspread-dataframe plotly seaborn
 
 import pandas as pd
 import seaborn as sns
@@ -23,7 +23,7 @@ from gspread_dataframe import get_as_dataframe
 from google.colab import auth
 from google.auth import default
 # Install necessary packages
-!pip install --upgrade gspread gspread-dataframe google-auth-oauthlib
+# !pip install --upgrade gspread gspread-dataframe google-auth-oauthlib
 
 # Authenticate user in Colab
 auth.authenticate_user()
