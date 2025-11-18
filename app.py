@@ -32,7 +32,7 @@ from gspread_dataframe import get_as_dataframe
 # creds, _ = default()
 
 # Connect gspread client
-gc = gspread.authorize(creds)
+# gc = gspread.authorize(creds)
 
 # Replace with your Google Sheet URL
 sheet_url = "https://docs.google.com/spreadsheets/d/1E-r-5RQSWYt1hKc_7WUlGVtbAGh8AAIisb2sbWBNTpk/edit?usp=sharing"
