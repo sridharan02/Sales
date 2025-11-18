@@ -29,7 +29,7 @@ from gspread_dataframe import get_as_dataframe
 # auth.authenticate_user()
 
 # Get credentials from Colab
-creds, _ = default()
+# creds, _ = default()
 
 # Connect gspread client
 gc = gspread.authorize(creds)
